@@ -1,0 +1,88 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UserSettings/
+
+# ============================================ #
+# Operating System generated files/folders     #
+# ============================================ #
+.DS_Store
+Thumbs.db
+
+# ============================================ #
+# Visual Studio general                       #
+# ============================================ #
+*.suo
+*.user
+*.sln.docstates
+
+# ============================================ #
+# Visual Studio NuGet packages               #
+# ============================================ #
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+
+# ============================================ #
+# Visual Studio cache files                  #
+# ============================================ #
+ipch/
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+
+# ============================================ #
+# Visual Studio MAC                         #
+# ============================================ #
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ============================================ #
+# Unity3D generated files                     #
+# ============================================ #
+Library/
+LocalSettings.json
+Logs/
+Preferences/
+ Assets/AssetStoreTools/
+ Assets/Editor Default Resources/
+ Assets/Resources/unity_builtin_extra
+
+# ============================================ #
+# Plugin specific files                       #
+# ============================================ #
+#elliuz
+*.ell
+
+# ============================================ #
+# JetBrain's Rider                           #
+# ============================================ #
+.idea
+*.sln.iml
+
+# ============================================ #
+# Unity3D Editor Crash Logs                  #
+# ============================================ #
+Library/EditorCrashHandler*
+
+# ============================================ #
+# Script compilation temporary files          #
+# ============================================ #
+=obj/
+=GmcsCache/
+=TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+=TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+=TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+=TemporaryGeneratedFile_0E6CB016-2F0B-411F-BDCE-3F8D2C369E7F.cs
